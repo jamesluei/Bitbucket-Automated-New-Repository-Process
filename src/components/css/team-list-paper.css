@@ -1,0 +1,35 @@
+.data-content{
+    padding: 20px;
+    text-align: left;
+    font-size: 18px;
+}
+.data-image-content {
+    float: right;
+    width: 80px;
+    height: 80px;
+    margin-right: 60px;
+    border-radius: 50%;
+}
+
+a, a:link, a:visited, a.hover, a.active{
+    text-decoration: none;
+    color: #000000;
+}
+.root-teamlist{
+    transition: all 0.6s;
+    /* border-radius: 25px; */
+    border-bottom: 1px solid #ffffff;
+    display: 'flex';
+    flex-wrap: 'wrap';
+    align-items: 'center';
+    justify-content: 'center';
+    cursor: 'pointer';
+    margin: 25px;
+    padding: 15px;
+}
+.root-teamlist:hover{
+    /* background-color: #888888; */
+    border-radius: 25px;
+    border-bottom: 1px solid #309afc!important;
+
+}
