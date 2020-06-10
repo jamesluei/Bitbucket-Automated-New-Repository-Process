@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b0d1c42.chunk.css",
-    "main.js": "/static/js/main.cf4ed8ca.chunk.js",
-    "main.js.map": "/static/js/main.cf4ed8ca.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.cb90cfed.js",
-    "runtime-main.js.map": "/static/js/runtime-main.cb90cfed.js.map",
-    "static/js/2.4222b495.chunk.js": "/static/js/2.4222b495.chunk.js",
-    "static/js/2.4222b495.chunk.js.map": "/static/js/2.4222b495.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.55b5efef8e3280da2e8ab493e47370fc.js": "/precache-manifest.55b5efef8e3280da2e8ab493e47370fc.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4b0d1c42.chunk.css.map": "/static/css/main.4b0d1c42.chunk.css.map",
-    "static/js/2.4222b495.chunk.js.LICENSE.txt": "/static/js/2.4222b495.chunk.js.LICENSE.txt"
+    "main.css": "/Bitbucket-Automated-New-Repository-Process/docs/static/css/main.4b0d1c42.chunk.css",
+    "main.js": "/Bitbucket-Automated-New-Repository-Process/docs/static/js/main.9e7e925a.chunk.js",
+    "main.js.map": "/Bitbucket-Automated-New-Repository-Process/docs/static/js/main.9e7e925a.chunk.js.map",
+    "runtime-main.js": "/Bitbucket-Automated-New-Repository-Process/docs/static/js/runtime-main.08e163f8.js",
+    "runtime-main.js.map": "/Bitbucket-Automated-New-Repository-Process/docs/static/js/runtime-main.08e163f8.js.map",
+    "static/js/2.4222b495.chunk.js": "/Bitbucket-Automated-New-Repository-Process/docs/static/js/2.4222b495.chunk.js",
+    "static/js/2.4222b495.chunk.js.map": "/Bitbucket-Automated-New-Repository-Process/docs/static/js/2.4222b495.chunk.js.map",
+    "index.html": "/Bitbucket-Automated-New-Repository-Process/docs/index.html",
+    "precache-manifest.e7e1758b670d59a7ccf954ca30bec065.js": "/Bitbucket-Automated-New-Repository-Process/docs/precache-manifest.e7e1758b670d59a7ccf954ca30bec065.js",
+    "service-worker.js": "/Bitbucket-Automated-New-Repository-Process/docs/service-worker.js",
+    "static/css/main.4b0d1c42.chunk.css.map": "/Bitbucket-Automated-New-Repository-Process/docs/static/css/main.4b0d1c42.chunk.css.map",
+    "static/js/2.4222b495.chunk.js.LICENSE.txt": "/Bitbucket-Automated-New-Repository-Process/docs/static/js/2.4222b495.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb90cfed.js",
+    "static/js/runtime-main.08e163f8.js",
     "static/js/2.4222b495.chunk.js",
     "static/css/main.4b0d1c42.chunk.css",
-    "static/js/main.cf4ed8ca.chunk.js"
+    "static/js/main.9e7e925a.chunk.js"
   ]
 }
