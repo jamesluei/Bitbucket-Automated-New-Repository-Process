@@ -1,5 +1,5 @@
 const DefaultReadme = `
-**This Repository was created using an Automated Process**
+*CREATED USING AUTOMATED PROCESS*
 **Contribute to the project at https://github.com/seanjin17/Bitbucket-Automated-New-Repository-Process**
 
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**

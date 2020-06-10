@@ -37,7 +37,7 @@ You will create Repo branches? A branching model? Branch Restrictions? Add Revie
 	Note: You need to provide permissions according to your requirement
 
 After you create a consumer you'll find the Key and Secret for your consumer.
-You need to configure the same under src/data-access/config's ClientID and ClientSecret key
+You need to configure the same under your environment variables. See example.env
 
 File src/data-access/config.js contains your basic config for the application to run
 You can also assign default reviewers and SSH hosts under src/data-access/config.js file

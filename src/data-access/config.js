@@ -1,8 +1,8 @@
 import {KnownHosts} from './ssh-known-hosts'
-export const Config = {
+export var Config = {
     Bitbucket:{
-        ClientId: "", // Your consumer Client ID
-        ClientSecret: "", // Your consumer secret
+        ClientId: process.env.REACT_APP_CLIENT_CONSUMER_ID, // Your consumer Client ID
+        ClientSecret: process.env.REACT_APP_CLIENT_CONSUMER_SECRET, // Your consumer secret
         Endpoints: {
             GetAccesTokenFromCode : "access_token",
             GetTeamsOfUser : "teams",

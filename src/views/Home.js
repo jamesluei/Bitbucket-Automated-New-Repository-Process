@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { userContext } from '../context/userContext'
 import { GetAccesTokenFromCode, GetTeamsOfUser, RefreshToken } from '../data-access/request-layer'
-import { Config } from '../data-access/config'
 import TeamListPaper from '../components/team-list-paper'
 import Paper from '@material-ui/core/Paper';
 import CircularProgress from '@material-ui/core/CircularProgress';
@@ -13,7 +12,8 @@ export default function Home() {
   useEffect(() => {
     const GetIntialInformation = async () => {
       try {
-        !window.localStorage.getItem(Config.Bitbucket.ClientId)
+        console.log(process.env)
+        !window.localStorage.getItem(process.env.REACT_APP_CLIENT_CONSUMER_ID)
           ? await GetAccesTokenFromCode(new URLSearchParams(window.location.search).get('code')).then(data => {
             setUser({ userData: data })
           }).catch(e => { throw e })
@@ -24,7 +24,10 @@ export default function Home() {
           setUser(user => ({ ...user, userTeams: data }))
         }).catch(e => { throw e })
       } catch (e) {
-        setApiError(e)
+        console.log(e)
+        localStorage.removeItem(process.env.REACT_APP_CLIENT_CONSUMER_ID)
+          window.location.href = `https://bitbucket.org/site/oauth2/authorize?client_id=${process.env.REACT_APP_CLIENT_CONSUMER_ID}&response_type=code`
+        setApiError("An Error Occoured, Authenticating Again")
       }
     }
     GetIntialInformation()

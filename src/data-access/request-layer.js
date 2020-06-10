@@ -1,7 +1,11 @@
 import axios from 'axios';
 import {Config} from './config'
 import qs from 'qs'
-import {DefaultReadme, NodeReadme, HtmlJsCssReadme, PythonReadme} from '../data-access/readme-files'
+import {DefaultReadme, 
+    // NodeReadme, 
+    // HtmlJsCssReadme, 
+    // PythonReadme
+} from '../data-access/readme-files'
 
 var api = axios.create({
     baseURL: "https://api.bitbucket.org/2.0/",
@@ -11,10 +15,10 @@ var api = axios.create({
 
 const CatchAxiosError = ErrorObject => {
     if (ErrorObject.response) {
-        console.log(ErrorObject.response.headers)
-        return `'Error: Api Responded with status code ${ErrorObject.response.status} Message : ${JSON.stringify(ErrorObject.response.data)}`
+        return JSON.stringify({Error: `Api Responded with status code ${ErrorObject.response.status}`,
+                 Message : ErrorObject.response.data})
     }else {
-        return (`Error : ${ErrorObject.message}`)
+        return JSON.stringify({Error : "Error", Message: ErrorObject.message})
     }
 }
 
@@ -232,7 +236,8 @@ const CommitReadmeFile = (teamId, repoId) => {
             "Authorization" : `Bearer ${JSON.parse(window.localStorage.getItem(Config.Bitbucket.ClientId)).access_token}`
         },
         data: qs.stringify({
-            "README.MD" : DefaultReadme
+            'README.MD' : DefaultReadme,
+            'message': 'Created Using Automated Process - https://github.com/seanjin17/Bitbucket-Automated-New-Repository-Process',
         })
     }).then(response  => {
         return response
