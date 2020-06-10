@@ -2,7 +2,7 @@
   "name": "bitbucketautomation",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://seanjin17.github.io/Bitbucket-Automated-New-Repository-Process/docs/",
+  "homepage": "https://seanjin17.github.io/Bitbucket-Automated-New-Repository-Process/",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
