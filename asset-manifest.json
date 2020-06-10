@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Bitbucket-Automated-New-Repository-Process/static/css/main.4b0d1c42.chunk.css",
+    "main.js": "/Bitbucket-Automated-New-Repository-Process/static/js/main.ff6f0439.chunk.js",
+    "main.js.map": "/Bitbucket-Automated-New-Repository-Process/static/js/main.ff6f0439.chunk.js.map",
+    "runtime-main.js": "/Bitbucket-Automated-New-Repository-Process/static/js/runtime-main.37223b8b.js",
+    "runtime-main.js.map": "/Bitbucket-Automated-New-Repository-Process/static/js/runtime-main.37223b8b.js.map",
+    "static/js/2.4222b495.chunk.js": "/Bitbucket-Automated-New-Repository-Process/static/js/2.4222b495.chunk.js",
+    "static/js/2.4222b495.chunk.js.map": "/Bitbucket-Automated-New-Repository-Process/static/js/2.4222b495.chunk.js.map",
+    "index.html": "/Bitbucket-Automated-New-Repository-Process/index.html",
+    "precache-manifest.812194e0f536f9b1e003b7e5150c24ee.js": "/Bitbucket-Automated-New-Repository-Process/precache-manifest.812194e0f536f9b1e003b7e5150c24ee.js",
+    "service-worker.js": "/Bitbucket-Automated-New-Repository-Process/service-worker.js",
+    "static/css/main.4b0d1c42.chunk.css.map": "/Bitbucket-Automated-New-Repository-Process/static/css/main.4b0d1c42.chunk.css.map",
+    "static/js/2.4222b495.chunk.js.LICENSE.txt": "/Bitbucket-Automated-New-Repository-Process/static/js/2.4222b495.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37223b8b.js",
+    "static/js/2.4222b495.chunk.js",
+    "static/css/main.4b0d1c42.chunk.css",
+    "static/js/main.ff6f0439.chunk.js"
+  ]
+}
